@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { fetchProduct } from "./services/productService";
-import Spinner from "./components/spinner";
+import Spinner from "./components/Spinner";
+
 
 
 function App() {
