@@ -16,7 +16,7 @@ function App() {
     fetchProduct(12).then((data) => setProduct(data));
   }, []);
 
-  if (!product) return <Spinner />;
+  if (!product) return <Spinner/>;
 
   const images = [product.image, product.image, product.image, product.image];
 
